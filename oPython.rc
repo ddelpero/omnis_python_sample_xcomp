@@ -1,0 +1,15 @@
+#include "resource.h"
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APPNAME					"Python"
+    IDS_CALLFUNCTION			   "$CalLFunction:$CallFunction(szModuleName, szModuleFunction, Parameters, ReturnValue, [ErrorString]) returns List"
+	 IDS_ADDPYTHONPATH			"$AddPythonPath:$AddPythonPath(szPath)."
+	 IDS_GETDEFAULTPYTHONPATH  "$GetDefaultPythonPath:$GetDefaultPythonPath() returns default path for Python Interpreter. This does not include paths added with $AddPythonPath()"
+	 IDS_MODULENAME				"szModuleName: Name of Python module."
+    IDS_MODULEFUNCTION			"szModuleFunction: Name of Python function."
+	 IDS_ARGLIST					"Parameters: Row of function parameters."
+	 IDS_RETURNVALUE				"Return value"
+	 IDS_PATH					   "szPath: Path to Python Libraries"
+    IDS_ENTRY_POINT				"Python"
+END
